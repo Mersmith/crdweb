@@ -10,4 +10,6 @@ npm run dev
 
 php artisan migrate
 
+php artisan make:controller Web/InicioController
 
+php artisan make:livewire Web/Menu/MenuPrincipal
