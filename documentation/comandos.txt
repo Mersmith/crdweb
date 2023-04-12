@@ -1,0 +1,3 @@
+PS C:\xampp\htdocs>composer create-project laravel/laravel crdweb
+PS C:\xampp\htdocs>cd crdweb
+PS C:\xampp\htdocs>code .

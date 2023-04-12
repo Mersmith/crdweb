@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "1-Instalación Laravel"
+git log
+git remote add origin https://github.com/Mersmith/crdweb.git
+git push origin master
+
