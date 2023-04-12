@@ -5,3 +5,10 @@ git log
 git remote add origin https://github.com/Mersmith/crdweb.git
 git push origin master
 
+git checkout -b 1_Livewire
+git branch
+git status
+git add .
+git commit -m "Instalar livewire y conectar base de datos"
+git push origin 1_Livewire
+->Click en boton Merge pull request
