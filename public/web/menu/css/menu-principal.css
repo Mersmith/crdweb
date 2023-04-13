@@ -1,6 +1,6 @@
 /*CONTENEDOR NAVBAR*/
 .contenedor_navbar {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 20px 10px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     z-index: 950;
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
 }
 
 /*NAVBAR*/

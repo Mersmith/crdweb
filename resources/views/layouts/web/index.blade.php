@@ -51,7 +51,7 @@
         </main>
 
         <!--PIE DE PÁGINA-->
-        {{--@include('layouts.web.componentes.pie-pagina')--}}
+        @include('layouts.web.componentes.pie-pagina')
 
     </div>
 
