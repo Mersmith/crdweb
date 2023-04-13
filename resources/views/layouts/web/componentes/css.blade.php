@@ -27,5 +27,12 @@
 <!--PIE PÁGINA WEB-->
 <link rel="stylesheet" href="{{ asset('web/inicio/css/pie-pagina.css') }}">
 
-<!-- SLIDER PRINCIPAL WEB-->
+<!--SLIDER PRINCIPAL WEB-->
 <link rel="stylesheet" href="{{ asset('web/inicio/css/slider-principal.css') }}">
+
+<!--SLIDER ENCARGADOS WEB-->
+<link rel="stylesheet" href="{{ asset('web/inicio/css/slider-encargados.css') }}">
+
+<!--PÁGINA WEB INICIO-->
+<link rel="stylesheet" href="{{ asset('web/inicio/css/informacion.css') }}">
+<link rel="stylesheet" href="{{ asset('web/inicio/css/servicios.css') }}">
