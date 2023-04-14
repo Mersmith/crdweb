@@ -31,6 +31,7 @@
 
 .boton_menu_principal:hover {
     background-color: #15a9c7;
+    color: white !important;
 }
 
 @media (max-width: 1200px) {

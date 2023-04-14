@@ -24,4 +24,7 @@
 
     <!--BENEFICIOS-->
     @include('web.inicio.beneficios')
+
+    <!--CONTACTO-->
+    @include('web.inicio.contacto')
 </x-web-layout>

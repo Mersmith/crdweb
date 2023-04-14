@@ -1,5 +1,5 @@
 <!--CENTRAR ELEMENTOS-->
-<div class="centrar_elementos">
+<div class="centrar_elementos" id="seccion_beneficios">
     <div class="contenedor_item_servicios">
         <!--TÍTULO-->
         <div class="titulo_servicios">
@@ -100,8 +100,8 @@
             </button>
             <div class="panel_acordeon">
                 <p>
-                    Ingresando a la pagina <a
-                        href="http://centroradiologico.com.pe/crd/index.html">wwww.centroradiologico.com.pe/crd</a>
+                    Ingresando a la pagina <a href="https://crdcloud.centroradiologico.com.pe/"
+                        target="_blank">wwww.crdcloud.centroradiologico.com.pe</a>
                     . En la pestaña
                     <strong>“Mis CRD Puntos”, podrás visualizar el estado
                         actual de tus puntos.</strong>

@@ -36,3 +36,4 @@
 <!--PÁGINA WEB INICIO-->
 <link rel="stylesheet" href="{{ asset('web/inicio/css/informacion.css') }}">
 <link rel="stylesheet" href="{{ asset('web/inicio/css/servicios.css') }}">
+<link rel="stylesheet" href="{{ asset('web/inicio/css/contacto.css') }}">

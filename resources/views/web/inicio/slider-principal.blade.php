@@ -2,7 +2,7 @@
     <div class="gliderSliderPrincipal">
         <!--SLIDER 1-->
         <div class="slider_slider_item">
-            <a href="//www.google.com" target="_blank">
+            <a href="https://crdcloud.centroradiologico.com.pe/" target="_blank">
                 <img src="{{ asset('imagenes/slider/slider-1.png') }}" class="slider_principal_imagen">
             </a>
         </div>

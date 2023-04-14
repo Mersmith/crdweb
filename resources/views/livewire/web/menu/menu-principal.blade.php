@@ -3,11 +3,16 @@
     <nav class="navbar" x-data="sidebar" x-on:click.away="cerrarSidebar()">
         <!-- REDES -->
         <div class="navbar_pie_redes">
-            <a href=""><i class="fa-brands fa-facebook" style="color: #666666;"></i></a>
-            <a href=""><i class="fa-brands fa-instagram" style="color: #666666;"></i></a>
-            <a href=""><i class="fa-brands fa-tiktok" style="color: #666666;"></i></a>
-            <a href=""><i class="fa-brands fa-youtube" style="color: #666666;"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp" style="color: #666666;"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100090626147119" target="_blank"><i
+                    class="fa-brands fa-facebook" style="color: #666666;"></i></a>
+            <a href="https://www.instagram.com/centroradiologicodigitalcrd/?hl=es-la" target="_blank"><i
+                    class="fa-brands fa-instagram" style="color: #666666;"></i></a>
+            <a href="https://www.tiktok.com/@crdcentroradiologico" target="_blank"><i class="fa-brands fa-tiktok"
+                    style="color: #666666;"></i></a>
+            <a href="https://www.youtube.com/@httv5294" target="_blank"><i class="fa-brands fa-youtube"
+                    style="color: #666666;"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=51997890934&text&type=phone_number&app_absent=0"
+                target="_blank"><i class="fa-brands fa-whatsapp" style="color: #666666;"></i></a>
         </div>
 
         <!-- MENU -->

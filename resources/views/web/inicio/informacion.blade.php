@@ -1,5 +1,5 @@
 <!--CENTRAR ELEMENTOS-->
-<div class="centrar_elementos">
+<div class="centrar_elementos" id="seccion_crd">
     <div class="contenedor_item_informacion">
         <!--TÍTULO-->
         <div class="titulo_informacion">
