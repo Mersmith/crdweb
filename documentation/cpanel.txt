@@ -1,0 +1,76 @@
+npm run build
+
+Dominio: crdweb.centroradiologico.com.pe
+Carpeta Raíz: /public_html/crdweb.centroradiologico.com.pe
+
+Carpeta Storage: public_html/crdweb.centroradiologico.com.pe/storage
+
+Acceso a la carpeta: cd public_html/crdweb.centroradiologico.com.pe
+
+php -v
+
+git clone https://github.com/Mersmith/crdweb.git
+
+->Mover la carpeta al dominio principal o subdominio
+->Eliminar la carpeta crdweb
+
+->Estar en centroradiologic@serv [~/public_html/crdweb.centroradiologico.com.pe]#
+
+composer install
+
+->Abrir la url en otra pestaña
+http://crdweb.centroradiologico.com.pe
+
+->Configurar el .env
+
+APP_URL=http://crdweb.centroradiologico.com.pe
+DB_DATABASE=crdwebdb
+DB_USERNAME=taeweb
+DB_PASSWORD=%*!!rWLE=p3web
+FILESYSTEM_DISK=local
+
+php artisan key:generate
+
+->Cambiar o actualizar en estos archivos filesystems y database
+
+->Solo subir al storage todo del public y listo, cambiar el local
+/home/digidentcom/htdentprueba.digident.com.pe/config/filesystems.php
+'local' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public'),
+            'throw' => false,
+        ],
+htdentprueba.digident.com.pe/storage/app/public
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/home/digidentcom/htdentprueba.digident.com.pe/config/database.php
+
+'mysql' => [
+    ...
+    'engine' => 'InnoDB',
+]
+
+->Migramos la base de datos
+
+php artisan migrate
+
+php artisan migrate:fresh
+
+->Configuramos livewire
+
+php artisan livewire:publish --config
+
+'asset_url' => url('/'),
+
+->Subir el compilado de CSS y JS en el public build
+
+->Redirigir al public con .httacces
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+->Redirigir a la carpeta del proyecto del subdominio con .httacces
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^centroradiologico.com.pe$
+RewriteCond %{REQUEST_URI} !^/crdweb.centroradiologico.com.pe/
+RewriteRule (.*) /crdweb.centroradiologico.com.pe/$1 [L]
