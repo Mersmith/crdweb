@@ -28,3 +28,11 @@ git add .
 git commit -m "Pagina Inicio"
 git push origin 3_Pagina_Inicio
 ->Click en boton Merge pull request
+
+git checkout -b 4_Actualizar_Datos
+git branch
+git status
+git add .
+git commit -m "Actualizar Datos"
+git push origin 4_Actualizar_Datos
+->Click en boton Merge pull request

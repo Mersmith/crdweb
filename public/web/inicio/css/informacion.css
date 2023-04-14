@@ -2,9 +2,20 @@
 .centrar_elementos {
     display: flex;
     justify-content: center;
+    margin-top: -80px;
+    padding-top: 80px;
 }
 
 /*BOTONES TAB*/
+.contenedor_botones_tab {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-gap: 20px;
+}
+
 .contenedor_botones_tab button {
     background-color: #189bb6;
     color: white;
@@ -174,4 +185,10 @@
         width: 100%;
         justify-content: center;
     }
+
+    /*BOTONES TAB*/
+    .contenedor_botones_tab {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
